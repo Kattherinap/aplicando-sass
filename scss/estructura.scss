@@ -1,0 +1,14 @@
+body {display: grid;
+grid-template-areas:
+header header
+menu menu
+contacto ubicacion
+footer footer;
+grid-template-columns: 50% 50%;
+grid-row:70px 100px 100px 10px;}
+
+header{grid-area: header;}
+#menu{grid-area: menu;}
+#contacto{grid-area: contacto;}
+#ubicacion{grid-area: ubicacion;}
+footer{grid-area: footer;}
